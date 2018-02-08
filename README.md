@@ -6,7 +6,7 @@ Used to separate entities in a Home Assistant group
 ***
 ***
 ## Features
-* Highly customizable: widthm, thickness, borders, images, color, dashes, double lines etc.
+* Highly customizable: width, thickness, borders, images, color, dashes, double lines etc.
 * More than one can be added to the interface.
 * Disabled more-info card.
 ***
