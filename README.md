@@ -10,7 +10,7 @@ Used to separate entities in a Home Assistant group
 * More than one can be added to the interface.
 * Disabled more-info card.
 ***
-KNOWN PROBLEMS: Not all options exposed for the `customize` section.
+KNOWN PROBLEMS: Not all options exposed in the `customize` section.
 ***
 ***
 ## Installation
