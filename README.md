@@ -40,6 +40,7 @@ group:
       - sensor.1
       - sensor.hline1
       - sensor.2   
+```
 * Convert your newly created sensor to a horizontal line in the `customize` section or your `customize.yaml` file:
 
 ```yaml
