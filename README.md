@@ -4,15 +4,13 @@ Used to separate entities in a Home Assistant group
 <img align="left" src="https://i.imgur.com/mQiMmGg.jpg" height="350">
 
 ***
-KNOWN PROBLEMS: Not all options exposed for the `customize` section.
-***
-***
-***
 ***
 ## Features
 * Highly customizable: widthm, thickness, borders, images, color, dashes, double lines etc.
 * More than one can be added to the interface.
 ***
+***
+KNOWN PROBLEMS: Not all options exposed for the `customize` section.
 ***
 ***
 ## Installation
