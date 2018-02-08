@@ -87,7 +87,7 @@ group:
         backgroundcolor: white
         bordertop: '1px solid black'
         backgroundimage: none
- 
+ ```
 ## Changelog
 ```
 Version 20180208:
@@ -95,5 +95,5 @@ Start
 ```
 
 Some ideas for customizing:
-https://codepen.io/ibrahimjabbari/pen/ozinB
-https://css-tricks.com/examples/hrs/
+* https://codepen.io/ibrahimjabbari/pen/ozinB
+* https://css-tricks.com/examples/hrs/
