@@ -1,4 +1,4 @@
-# Horinzontal line state card for [Home Assistant](https://home-assistant.io)
+# Horizontal line state card for [Home Assistant](https://home-assistant.io)
 Used to separate entities in a Home Assistant group 
 
 <img align="left" src="https://i.imgur.com/mQiMmGg.jpg" height="350">
