@@ -21,7 +21,8 @@ frontend:
   extra_html_url:
     - /local/custom_ui/state-card-hline.html
 ```
-* Create one or more sensors, binary_sensor(s), input_text(s) etc. in your `configuration.yaml`. If you plan to use only one design for you horizontal line just create one sensor and use it in the groups you want.
+* Create one or more sensors, binary_sensor(s), input_text(s) etc. in your `configuration.yaml`. 
+If you plan to use only one design for you horizontal line just create one sensor and use it in the groups you want.
 
 E.g.:
 ```yaml
