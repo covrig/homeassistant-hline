@@ -4,13 +4,17 @@ Used to separate entities in a Home Assistant group
 <img align="left" src="https://i.imgur.com/mQiMmGg.jpg" height="350">
 
 ***
-KNOWN PROBLEMS: Not all options exposed for the `customize section`.
-
+KNOWN PROBLEMS: Not all options exposed for the `customize` section.
+***
+***
+***
 ***
 ## Features
 * Highly customizable: widthm, thickness, borders, images, color, dashes, double lines etc.
 * More than one can be added to the interface.
-
+***
+***
+***
 ## Installation
 * Download `/www/custom_ui/state-card-hline.html` to `<your-hass-configuration-dir>/www/custom_ui/` (create the folder structure if you don't have it - mind the permissions)
 * Add it to your `configuration.yaml`:
