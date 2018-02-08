@@ -41,11 +41,11 @@ group:
       - sensor.hline1
       - sensor.2   
 ```
-* Convert your newly created sensor to a horizontal line in the `customize` section or your `customize.yaml` file:
+* Convert your newly created sensor (or an existing one that you don't use) to a horizontal line in the `customize` section or your `customize.yaml` file:
 
 ```yaml
   customize:
-    sensor.hline:
+    sensor.hline1:
       custom_ui_state_card: state-card-hline
  ```
  * Customize your horizontal line in the `customize` section or the `customize.yaml` file:
