@@ -21,14 +21,16 @@ frontend:
   extra_html_url:
     - /local/custom_ui/state-card-hline.html
 ```
-* Create one or more sensors, binary_sensor(s), input_text(s) etc. in your `configuration.yaml`. E.g.:
+* Create one or more sensors, binary_sensor(s), input_text(s) etc. in your `configuration.yaml`. If you plan to use only one design for you horizontal line just create one sensor and use it in the groups you want.
+
+E.g.:
 ```yaml
 sensor:
   - platform: template
     sensors:
-      hline1:
+      hline_1:
         value_template: hline
-      hline2:
+      hline_2:
         value_template: hline
 ```
 * Add your sensor to a group between the entities you would like to split E.g.:
@@ -38,41 +40,49 @@ group:
     name: ' '   > in this format the chart will not have a name above (recommeded)
     entities:
       - sensor.1
-      - sensor.hline1
+      - sensor.hline_1
       - sensor.2   
+      - sensor.hline_2
 ```
 * Convert your newly created sensor (or an existing one that you don't use) to a horizontal line in the `customize` section or your `customize.yaml` file:
 
 ```yaml
   customize:
-    sensor.hline1:
+    sensor.hline_1:
+      custom_ui_state_card: state-card-hline
+    sensor.hline_2:
+      custom_ui_state_card: state-card-hline
+ ```
+ or in the `customize_glob.yaml` file:
+ ```
+     sensor.hline_*:
       custom_ui_state_card: state-card-hline
  ```
  * Customize your horizontal line in the `customize` section or the `customize.yaml` file:
 
  ```yaml
-     sensor.hline1:
+     sensor.hline_1:
       custom_ui_state_card: state-card-hline
       config:
         width: 90 --> in percents
         height: 0 --> in pixels, adds to bordertop
         backgroundcolor: white
         bordertop: '1px solid black'
-    sensor.hline1:
+    sensor.hline_2:
       custom_ui_state_card: state-card-hline
       config:
         width: 90 --> in percents
         height: 0 --> in pixels, adds to bordertop
         backgroundcolor: white
         bordertop: '1px dashed red'
-    sensor.hline1:
+    sensor.hline_3:
       custom_ui_state_card: state-card-hline
       config:
         width: 65 --> in percents
         height: 0 --> in pixels, adds to bordertop
         backgroundcolor: white
         bordertop: '2px double green'
-    sensor.hline1:
+    sensor.hline_4:
       custom_ui_state_card: state-card-hline
       config:
         width: 85 --> in percents
