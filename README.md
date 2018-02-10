@@ -99,8 +99,8 @@ group:
  ```
 ## Changelog
 ```
-Version 20180208:
-Start
+Version 20180211:
+Fixed a couple of bugs.
 ```
 
 Some ideas for customizing:
