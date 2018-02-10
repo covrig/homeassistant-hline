@@ -43,7 +43,7 @@ class HLine extends Polymer.Element {
     super.ready();
     var config = this.config;
     this.updateStyles({
-      '--width': (config.width)+'%' ? (config.width)+'%' : '85%',
+      '--width': config.width +'%' ? config.width +'%' : '85%',
       '--height': config.height+'px' ? config.height+'px' : '0px',
       '--bordertop': config.bordertop ? config.bordertop : '1px solid black',
       '--backgroundcolor': config.backgroundcolor ? config.backgroundcolor : 'white',
