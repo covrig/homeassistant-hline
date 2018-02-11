@@ -59,7 +59,7 @@ group:
  ```
  * Customize your horizontal line in the `customize` section or the `customize.yaml` file:
  ```dif 
- This is more or less CSS, so the combination of options matters
+ - This is more or less CSS, so the combination of options matters
  ```
  ```yaml
      sensor.hline_1:
