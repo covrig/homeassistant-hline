@@ -85,7 +85,9 @@ group:
       custom_ui_state_card: state-card-hline
       config:
         width: 85 --> in percents
-        height: 2 --> in pixels, adds to bordertop
+        height: 1 --> in pixels, adds to bordertop
+        backgroundcolor: white
+        bordertop: none
         backgroundimage: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
  ```
  ```
@@ -100,7 +102,7 @@ group:
 ## Changelog
 ```
 Version 20180211:
-Fixed a couple of bugs.
+Fixed a couple of bugs in the CSS.
 ```
 
 Some ideas for customizing:
