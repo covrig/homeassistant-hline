@@ -61,6 +61,11 @@ group:
  ```dif 
  - This is more or less CSS, so the combination of options matters
  ```
+ ```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
+ 
  ```yaml
      sensor.hline_1:
       custom_ui_state_card: state-card-hline
