@@ -57,8 +57,10 @@ group:
      sensor.hline_*:
       custom_ui_state_card: state-card-hline
  ```
- * Customize your horizontal line in the `customize` section or the `customize.yaml` file (``` dif this is CSS, so the combination of options matters_```):
-
+ * Customize your horizontal line in the `customize` section or the `customize.yaml` file:
+ ```dif 
+ This is more or less CSS, so the combination of options matters
+ ```
  ```yaml
      sensor.hline_1:
       custom_ui_state_card: state-card-hline
