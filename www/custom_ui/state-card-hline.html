@@ -12,11 +12,12 @@ v20180211
    margin-top: -8px;
 }
 hr {
-  width: var(--width);
-  height: var(--height);
-  border-top: var(--bordertop);
-  background-color: var(--backgroundcolor);
-  background-image: var(--backgroundimage);
+  width: var(--width, 85%);
+  height: var(--height, 0px);
+  border-top: var(--bordertop,  1px solid black) !important;
+  border: none;
+  background-color: var(--backgroundcolor, 'black');
+  background-image: var(--backgroundimage, none);
 }
 </style>
 <div class="hrdiv"  on-tap='cardTapped'><hr on-tap='cardTapped'></div>
@@ -42,7 +43,7 @@ class HLine extends Polymer.Element {
   }
   ready() {
     super.ready();
-    var config = this.config || {};
+    var config = this.config;
     this.updateStyles({
       '--width': config.width +'%' ? config.width +'%' : '85%',
       '--height': config.height+'px' ? config.height+'px' : '0px',
