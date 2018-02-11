@@ -58,14 +58,9 @@ group:
       custom_ui_state_card: state-card-hline
  ```
  * Customize your horizontal line in the `customize` section or the `customize.yaml` file:
- ```dif 
- - This is more or less CSS, so the combination of options matters
- ```
  ```diff
-+ this will be highlighted in green
-- this will be highlighted in red
-```
- 
+ - This is more or less CSS, so the combination of options matters
+ ``` 
  ```yaml
      sensor.hline_1:
       custom_ui_state_card: state-card-hline
