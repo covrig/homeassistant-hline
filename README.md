@@ -43,6 +43,9 @@ group:
       - sensor.2   
       - sensor.hline_2
 ```
+```dif
+- Create more lines if you want to insert more than one in a group (a line acts like a sensor: can't be repeated more than once in a group). 
+```
 * Convert your newly created sensor (or an existing one that you don't use) to a horizontal line in the `customize` section or your `customize.yaml` file:
 
 ```yaml
