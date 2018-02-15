@@ -14,7 +14,7 @@ KNOWN PROBLEMS: Not all options exposed in the `customize` section.
 ***
 ***
 ## Installation
-* Download `/www/custom_ui/state-card-hline.html` to `<your-hass-configuration-dir>/www/custom_ui/` (create the folder structure if you don't have it - mind the permissions)
+* Download `/www/custom_ui/state-card-hline.html` (or `/www/custom_ui/state-card-hline_es5.html`) to `<your-hass-configuration-dir>/www/custom_ui/` (create the folder structure if you don't have it - mind the permissions)
 * Add it to your `configuration.yaml`:
 ```yaml
 frontend:
@@ -105,9 +105,11 @@ group:
         backgroundimage: none
  ```
 ## Changelog
-```
+```diff
 Version 20180211:
-Fixed a couple of bugs in the CSS.
++Fixed a couple of bugs in the CSS.
+Version 20180215:
++Added ES5 file.
 ```
 
 Some ideas for customizing:
