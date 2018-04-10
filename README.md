@@ -14,12 +14,14 @@ KNOWN PROBLEMS: Not all options exposed in the `customize` section.
 ***
 ***
 ## Installation
-* Download `/www/custom_ui/state-card-hline.html` (or `/www/custom_ui/state-card-hline_es5.html`) to `<your-hass-configuration-dir>/www/custom_ui/` (create the folder structure if you don't have it - mind the permissions)
+* Download `/www/custom_ui/state-card-hline.html` and `/www/custom_ui/state-card-hline_es5.html` to `<your-hass-configuration-dir>/www/custom_ui/` (create the folder structure if you don't have it - mind the permissions)
 * Add it to your `configuration.yaml`:
 ```yaml
 frontend:
   extra_html_url:
     - /local/custom_ui/state-card-hline.html
+  extra_html_url_es5:
+    - /local/custom_ui/state-card-hline_es5.html
 ```
 * Create one or more sensors, binary_sensor(s), input_text(s) etc. in your `configuration.yaml`. 
 If you plan to use only one design for you horizontal line just create one sensor and use it in the groups you want.
@@ -110,6 +112,8 @@ Version 20180211:
 +Fixed a couple of bugs in the CSS.
 Version 20180215:
 +Added ES5 file.
+On 20180418:
++Updated installation instructions
 ```
 
 Some ideas for customizing:
